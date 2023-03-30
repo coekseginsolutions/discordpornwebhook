@@ -26,7 +26,7 @@ for vid in result:
     print(vid.title, vid.url)
     break
     
-webhook = DiscordWebhook(url='https://discord.com/api/webhooks/1090400465344274483/RlfUU9_V2yjLK5MkseqN1vAk0T2UrG7CXqCUtSbQmt8vzCvRqzR2vhIu7bMmKBOb2kae')
+webhook = DiscordWebhook(url='!!!!!!!!! ENTER YOUR URL HERE !!!!!!!!!!!')
 
 message = f"New Video: {vid.title}\n{vid.url}"
 webhook.set_content(content=message)
